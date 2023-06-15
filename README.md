@@ -18,9 +18,9 @@ The functions can be loaded individually, the load_program.ml loads alex.ml and 
 
 After the include you can use the following functions:
 
-alex			Lexical Analyzer: Reads a stream of characters representing the Pascal program.
-asin			Syntatic Analyzer: Reads a stream of tokens returned by alex and returns a rip (representation of the program)
-load_program		Reads a file (filepath as a string) and returns a rip
-run_program		Reads a rip, runs it and at the end shows the memory alterations
-stat_program		Reads a rip and shows the name of all the declared variables and constants
+* alex → Lexical Analyzer: Reads a stream of characters representing the Pascal program.
+* asin → Syntatic Analyzer: Reads a stream of tokens returned by alex and returns a rip (representation of the program)
+* load_program → Reads a file (filepath as a string) and returns a rip
+* run_program → Reads a rip, runs it and at the end shows the memory alterations
+* stat_program → Reads a rip and shows the name of all the declared variables and constants
 
